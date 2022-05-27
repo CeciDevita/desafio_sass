@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#body1{
+	font-family: 'Quicksand', sans-serif;
+}
+#imagen1{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+		.titulo{
+		font-size: 5rem;
+		background-color: #3439574f;
+		p{
+		font-size: 2rem;
+		}
+	}
+}
+@media all and (max-width: 768px){
+	#imagen1 .titulo{
+		font-size: 3rem;
+	}
+}
+.card-footer{
+	background-color: #21252980;
+	p{
+	font-family: 'Quicksand', sans-serif;
+	}
+}
